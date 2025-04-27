@@ -1,0 +1,8 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nobelcampus.com
+
+Sitemap: https://nobelcampus.com/sitemap.xml
