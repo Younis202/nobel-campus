@@ -15,12 +15,12 @@ export const mainNavItems = [
   },
   {
     label: "Programs",
-    href: "/programs",
+    href: "/",
     icon: "GraduationCap"
   },
   {
     label: "About",
-    href: "/about",
+    href: "/",
     icon: "Info"
   },
 ];
