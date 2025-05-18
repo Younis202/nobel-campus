@@ -28,22 +28,22 @@ export const mainNavItems = [
 export const trendingDestinations = [
   {
     name: "Paris, France",
-    image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+    image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/france.jpeg?updatedAt=1747611577387",
     link: "/destinations/europe/france/paris"
   },
   {
     name: "Tokyo, Japan",
-    image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+    image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/japan.jpeg?updatedAt=1747611579688",
     link: "/destinations/asia/japan/tokyo"
   },
   {
     name: "Dubai, UAE",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+    image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/emirates.jpeg?updatedAt=1747611577202",
     link: "/destinations/middle-east/uae/dubai"
   },
   {
     name: "Barcelona, Spain",
-    image: "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+    image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/spain.jpeg?updatedAt=1747611578297",
     link: "/destinations/europe/spain/barcelona"
   }
 ];
@@ -52,25 +52,25 @@ export const destinationsData: RegionData[] = [
   {
     region: "Europe",
     featured: {
-      name: "Paris, France",
-      image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-      link: "/destinations/europe/france/paris",
+      name: "Italy",
+      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/italy.jpeg?updatedAt=1747611578715",
+      link: "/destinations/europe/italy",
       tags: ["Top Universities", "Culture", "History"]
     },
     countries: [
       {
         name: "France",
-        image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+        image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/france.jpeg?updatedAt=1747611577387",
         cities: ["Paris", "Lyon", "Nice", "Bordeaux"]
       },
       {
         name: "Italy",
-        image: "https://images.unsplash.com/photo-1525874684015-58379d421a52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+        image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/italy.jpeg?updatedAt=1747611578715",
         cities: ["Rome", "Florence", "Venice", "Milan"]
       },
       {
         name: "Spain",
-        image: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+        image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/spain.jpeg?updatedAt=1747611578297",
         cities: ["Barcelona", "Madrid", "Seville", "Valencia"]
       }
     ]
@@ -79,24 +79,24 @@ export const destinationsData: RegionData[] = [
     region: "Asia",
     featured: {
       name: "Tokyo, Japan",
-      image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/japan.jpeg?updatedAt=1747611579688",
       link: "/destinations/asia/japan/tokyo",
       tags: ["Technology", "Innovation", "Tradition"]
     },
     countries: [
       {
         name: "Japan",
-        image: "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+        image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/japan.jpeg?updatedAt=1747611579688",
         cities: ["Tokyo", "Kyoto", "Osaka", "Sapporo"]
       },
       {
         name: "South Korea",
-        image: "https://images.unsplash.com/photo-1538485399081-7c8070d2b843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+        image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/South%20Korea.jpg?updatedAt=1747611572553",
         cities: ["Seoul", "Busan", "Incheon", "Daegu"]
       },
       {
         name: "China",
-        image: "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+        image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/china.jpg?updatedAt=1747611571545",
         cities: ["Beijing", "Shanghai", "Guangzhou", "Shenzhen"]
       }
     ]
@@ -104,25 +104,25 @@ export const destinationsData: RegionData[] = [
   {
     region: "Middle East",
     featured: {
-      name: "Dubai, UAE",
-      image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-      link: "/destinations/middle-east/uae/dubai",
-      tags: ["Business", "Innovation", "Culture"]
+      name: "Cairo, Egypt",
+      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/egypt.jpg?updatedAt=1747612277969",
+      link: "/destinations/middle-east/egypt/cairo",
+      tags: ["History", "Innovation", "Culture"]
     },
     countries: [
       {
-        name: "UAE",
-        image: "https://images.unsplash.com/photo-1548003693-b55d51032288?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-        cities: ["Dubai", "Abu Dhabi", "Sharjah", "Ajman"]
+        name: "Egypt",
+        image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/egypt.jpg?updatedAt=1747612277969",
+        cities: ["Cairo", "Giza", "Alexandria", "October"]
       },
       {
         name: "Qatar",
-        image: "https://images.unsplash.com/photo-1544032527-042957c6f7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+        image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/qatar.jpeg?updatedAt=1747611571614",
         cities: ["Doha", "Al Wakrah", "Al Khor", "Dukhan"]
       },
       {
         name: "Saudi Arabia",
-        image: "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+        image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/Saudi-Arabia-Riyadh.jpg?updatedAt=1747611579247",
         cities: ["Riyadh", "Jeddah", "Mecca", "Medina"]
       }
     ]
