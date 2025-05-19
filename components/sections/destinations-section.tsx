@@ -20,7 +20,7 @@ export function DestinationsSection() {
   const destinations = [
     {
       country: "Turkey",
-      image: "https://egyherbsglobal-770136110.imgix.net/sultan%20scholars/hero_image_1.jpg",
+      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/hero_image_1%20(1).jpg?updatedAt=1747622959864",
       universities: "15+ Universities",
       description: "Experience rich cultural heritage while studying in top institutions",
       flag: "🇹🇷",
@@ -31,7 +31,7 @@ export function DestinationsSection() {
     },
     {
       country: "United States",
-      image: "https://assets.unischolars.com/uploads/cities/New_York_State_copy_1_1.webp",
+      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/home-valuation.webp?updatedAt=1747622883700",
       universities: "30+ Universities",
       description: "World-leading research and diverse opportunities",
       flag: "🇺🇸",
@@ -42,7 +42,7 @@ export function DestinationsSection() {
     },
     {
       country: "UK",
-      image: "https://www.go.study/v1.0.1/assets/study-in-uk.jpg",
+      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/GettyImages-1176968994.jpg?updatedAt=1747622305612",
       universities: "15+ Universities",
       description: "High-quality education in a multicultural environment",
       flag: "🇬🇧",
@@ -53,7 +53,7 @@ export function DestinationsSection() {
     },
     {
       country: "Kazakhstan",
-      image: "https://www.hlb.global/wp-content/uploads/2022/04/Kazakhstan.jpg",
+      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/Kazakhstan%20(1)%20(1).jpg?updatedAt=1747622551162",
       universities: "25+ Universities",
       description: "Excellence in education with work opportunities",
       flag: "🇨🇦",
