@@ -67,6 +67,16 @@ export function TestimonialsSection() {
       text: "They followed up with me at every stage, answered all my questions, and kept things smooth.",
       rating: 5,
     },
+        {
+      name: "Muhammed A. Safwat",
+      country: "Egypt",
+      program: "mass media and communication",
+      university: "Misr University For Science and Technology",
+      image:
+        "https://ik.imagekit.io/pcet3dvcu/nobelcampus/4682.jpg?updatedAt=1747617796986",
+      text: "I was unsure at first, but their experience and attitude made me trust them completely.",
+      rating: 5,
+    },
     {
       name: "Mohamed Khaled",
       country: "Kazakhstan",
@@ -88,22 +98,12 @@ export function TestimonialsSection() {
       rating: 5,
     },
     {
-      name: "Muhammed A. Safwat",
-      country: "Egypt",
-      program: "mass media and communication",
-      university: "Misr University For Science and Technology",
-      image:
-        "https://scontent.fcai19-11.fna.fbcdn.net/v/t39.30808-6/468280976_2327961124250244_5005402082621022196_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=HqSMSmtE87UQ7kNvwFxXXkv&_nc_oc=AdnuVpy_BfIfUZlq0_w2bXvFzugj-auLYdPGYGBY3hNo5aj4sN2qSfLWFGrLgUP3tHw&_nc_zt=23&_nc_ht=scontent.fcai19-11.fna&_nc_gid=vmLBI4cUVF-11ArfbB5_1g&oh=00_AfH1EDYez8PVY3qJmu2yD-BLr8G26Qqwp9QJv4j-OPThQQ&oe=680B77BE",
-      text: "I was unsure at first, but their experience and attitude made me trust them completely.",
-      rating: 5,
-    },
-    {
       name: "Mohamed M. Ali",
       country: "Egypt",
       program: "Faculty Of Science Al-Azhar University",
       university: "Al Azhar University",
       image:
-        "https://scontent.fcai24-1.fna.fbcdn.net/v/t39.30808-6/489431378_2869751686537228_5099367953806382413_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHwN1xLKO_X5e4lD7hYa1U7eklN67zsH_96SU3rvOwf_68G51n1Gc4V9SeOXj6D88ty54sQ4XjrRvbnxge70yet&_nc_ohc=Dzqx0jTm1x8Q7kNvwGhc5fh&_nc_oc=Adlx9S18emmKxMktQNVQrE_tl7hL7EVr_1qeTbx3L0vh0bkmKF2hC75F9bmybXxZKMk&_nc_zt=23&_nc_ht=scontent.fcai24-1.fna&_nc_gid=iBJubjBNWQaDCgQN2TbOAQ&oh=00_AfGdG7h7Z92sU7gBm2dxRGo8jYFsdoq65ji8KFknRRmdfA&oe=680CACAD",
+        "https://ik.imagekit.io/pcet3dvcu/nobelcampus/40014.jpg?updatedAt=1747617875400",
       text: "They handled everything with professionalism. I didn't have to worry about anything.",
       rating: 5,
     },
