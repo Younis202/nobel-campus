@@ -17,52 +17,53 @@ import { useState } from "react";
 export function DestinationsSection() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
-  const destinations = [
-    {
-      country: "Turkey",
-      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/hero_image_1%20(1).jpg?updatedAt=1747622959864",
-      universities: "15+ Universities",
-      description: "Experience rich cultural heritage while studying in top institutions",
-      flag: "🇹🇷",
-      websiteUrl: "https://turkey.yourcompany.com",
-      studentCount: "5,000+ Students",
-      features: ["Affordable tuition", "STEM programs", "Scholarships available"],
-      year: "Fall 2025 Open"
-    },
-    {
-      country: "United States",
-      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/home-valuation.webp?updatedAt=1747622883700",
-      universities: "30+ Universities",
-      description: "World-leading research and diverse opportunities",
-      flag: "🇺🇸",
-      websiteUrl: "https://usa.yourcompany.com",
-      studentCount: "12,000+ Students",
-      features: ["Top global rankings", "Optional Practical Training", "Research focus"],
-      year: "Fall 2025 Open"
-    },
-    {
-      country: "UK",
-      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/GettyImages-1176968994.jpg?updatedAt=1747622305612",
-      universities: "15+ Universities",
-      description: "High-quality education in a multicultural environment",
-      flag: "🇬🇧",
-      websiteUrl: "https://uk.yourcompany.com",
-      studentCount: "8,500+ Students",
-      features: ["Post-study work rights", "Healthcare included", "Safe environment"],
-      year: "Winter 2025 Open"
-    },
-    {
-      country: "Kazakhstan",
-      image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/Kazakhstan%20(1)%20(1).jpg?updatedAt=1747622551162",
-      universities: "25+ Universities",
-      description: "Excellence in education with work opportunities",
-      flag: "🇨🇦",
-      websiteUrl: "https://canada.yourcompany.com",
-      studentCount: "10,200+ Students",
-      features: ["Immigration pathways", "Co-op programs", "Multicultural cities"],
-      year: "Spring 2025 Open"
-    }
-  ];
+const destinations = [
+  {
+    country: "Turkey",
+    image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/hero_image_1%20(1).jpg?updatedAt=1747622959864",
+    universities: "15+ Universities",
+    description: "Experience rich cultural heritage while studying in top institutions",
+    flag: "🇹🇷",
+    websiteUrl: "https://turkey.yourcompany.com",
+    studentCount: "5,000+ Students",
+    features: ["Affordable tuition", "STEM programs", "Scholarships available"],
+    year: "Fall 2025 Open"
+  },
+  {
+    country: "United States",
+    image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/home-valuation.webp?updatedAt=1747622883700",
+    universities: "30+ Universities",
+    description: "World-leading research and diverse opportunities",
+    flag: "🇺🇸",
+    websiteUrl: "https://usa.yourcompany.com",
+    studentCount: "12,000+ Students",
+    features: ["Top global rankings", "Optional Practical Training", "Research focus"],
+    year: "Fall 2025 Open"
+  },
+  {
+    country: "United Kingdom",
+    image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/GettyImages-1176968994.jpg?updatedAt=1747622305612",
+    universities: "15+ Universities",
+    description: "High-quality education in a multicultural environment",
+    flag: "🇬🇧",
+    websiteUrl: "https://uk.yourcompany.com",
+    studentCount: "8,500+ Students",
+    features: ["Post-study work rights", "Healthcare included", "Safe environment"],
+    year: "Winter 2025 Open"
+  },
+  {
+    country: "Kazakhstan",
+    image: "https://ik.imagekit.io/pcet3dvcu/nobelcampus/Kazakhstan%20(1)%20(1).jpg?updatedAt=1747622551162",
+    universities: "25+ Universities",
+    description: "Affordable education with growing international appeal",
+    flag: "🇰🇿",
+    websiteUrl: "https://kazakhstan.yourcompany.com",
+    studentCount: "3,000+ Students",
+    features: ["English-taught programs", "Low cost of living", "Modern campuses"],
+    year: "Spring 2025 Open"
+  }
+];
+
 
   return (
     <section className="py-20 bg-gradient-to-b from-white to-yellow-50 relative overflow-hidden">
