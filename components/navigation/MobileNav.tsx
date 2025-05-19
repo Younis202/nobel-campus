@@ -66,6 +66,7 @@ const MobileDestinationsMenu = ({ setIsOpen }: { setIsOpen: (open: boolean) => v
                       width={400}
                       height={200}
                       className="object-cover w-full h-full"
+                      loading="lazy" // بدلاً من eager
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-3">
                       <div className="text-white font-medium">{regionData.featured.name}</div>
@@ -92,6 +93,7 @@ const MobileDestinationsMenu = ({ setIsOpen }: { setIsOpen: (open: boolean) => v
                             width={24} 
                             height={24}
                             className="w-full h-full object-cover"
+                            loading="lazy" // بدلاً من eager
                           />
                         </div>
                       )}
