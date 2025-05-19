@@ -243,6 +243,7 @@ export function TestimonialsSection() {
                         alt={testimonials[spotlightIndex].name}
                         className="object-cover"
                         sizes="(max-width: 768px) 100vw, 40vw"
+                        loading="lazy" // بدلاً من eager
                       />
                     </div>
                     <div className="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/70 to-transparent">
