@@ -116,6 +116,7 @@ export function DestinationsSection() {
                   fill={true}
                   className="object-cover group-hover:scale-105 transition-all duration-500 ease-in-out"
                   priority={true}
+                  loading="lazy" // بدلاً من eager
                 />
                 
                 {/* Location Badge - unchanged design */}
