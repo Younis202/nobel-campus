@@ -233,8 +233,9 @@ export function GallerySection() {
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         className="object-cover transition-transform duration-700 group-hover:scale-105"
-                        priority={index < 3}
+                        priority={true}
                         quality={90}
+                        loading="lazy" // بدلاً من eager
                       />
                     </div>
 
@@ -354,6 +355,7 @@ export function GallerySection() {
                   className="object-cover rounded-lg"
                   priority={true}
                   quality={95}
+                  loading="lazy" // بدلاً من eager
                 />
               </div>
             </div>
