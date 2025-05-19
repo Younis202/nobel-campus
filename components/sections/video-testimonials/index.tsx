@@ -159,6 +159,7 @@ export function VideoTestimonialsSection(): JSX.Element {
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
                     priority
+                    loading="lazy" // بدلاً من eager
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/10" />
 
@@ -289,6 +290,7 @@ export function VideoTestimonialsSection(): JSX.Element {
                   fill
                   className="object-cover"
                   sizes="80px"
+                  loading="lazy" // بدلاً من eager
                 />
               </button>
             ))}
