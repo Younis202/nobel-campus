@@ -231,7 +231,9 @@ export function VideoTestimonialsSection(): JSX.Element {
                         width={380}
                         height={214}
                         className="object-cover object-center"
-                        priority={true} />
+                        priority={true}
+                        loading="lazy" // بدلاً من eager
+                        />
                     </div>
 
                     {/* Play Button - Centered */}
