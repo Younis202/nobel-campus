@@ -1,0 +1,28 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://knghomebuyers.com
+
+# Sitemaps
+Sitemap: https://knghomebuyers.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Additional Rules
+Allow: /about
+Allow: /how-it-works
+Allow: /properties
+Allow: /reviews
+Allow: /blog
+Allow: /faq
+Allow: /sell
+Allow: /privacy
+Allow: /terms
+
+# Prevent crawling of search results and similar
+Disallow: /search
+Disallow: /*?*
+Disallow: /*?
